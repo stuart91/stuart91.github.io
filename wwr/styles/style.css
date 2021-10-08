@@ -1,0 +1,14 @@
+body {
+        background-color: pink;
+}
+section {
+       background-color: skyblue;
+       font-size:25px;
+}
+.latin{
+    color:#be3010;
+    text-align:center;
+    margin:100px 50px;
+    padding:25px;
+    border:10px solid black;
+}
