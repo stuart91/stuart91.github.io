@@ -128,7 +128,7 @@ nav a:hover{
 }
 #background{
     height: 725px;
-    background-color: #396E94;
+    /* background-color: #396E94; */
     grid-column: 1/11;
     grid-row: 2/3;
 }
@@ -210,17 +210,23 @@ footer a:hover{
 }
 /* Keep this at the bottom! */
 
-@media screen and (max-width: 2000px) {
-    /*#hero, .home-grid {
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
         display: block;
         height: auto;
     }
     nav, footer {
         flex-direction: column;
-    }*/
+    }
     nav a {
         display: block;
         padding: 15px;
+    }
+    nav{
+        width: unset;
+    }
+    .architects{
+        flex-direction: column;
     }
     #hero {
         margin-top: 0;
@@ -247,6 +253,9 @@ footer a:hover{
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    #hero-img{
+        width: 100%;
     }
     footer {
         margin-top: 25px;
