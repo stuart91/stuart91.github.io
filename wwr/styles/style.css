@@ -114,7 +114,7 @@ nav a:hover{
     margin-top: 1000px;
 }
 .book, .join{                       
-    background-color: #EE6C4D;              
+    background-color: #FE7C5D;              
     color: #293241;
     text-decoration: none;
     text-align: center;
@@ -142,9 +142,12 @@ nav a:hover{
 }
 .msg h2{
     color: #293241;
+    font-family: var(--heading-font);
+
 }
 .msg p{
     color: #293241;
+    font-weight: bold;
     padding-bottom: 15px;
 }
 footer{
@@ -165,10 +168,11 @@ footer a{
 }
 footer a:hover{
     color: #eeebea;
-    text-decoration: underline;
+    text-decoration: none;
 }
+
 .social img{
-    padding-top: 15px;
+    padding-top: none;
 }
 .center{
     display: block;
