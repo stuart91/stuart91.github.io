@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.sign-up-header {
+    color: #0076c6;
+    font-size: 45px;
+}
+
+p1 {
+    color: #c7cdd1;
+}
+
+.bold-this {
+    font-weight: bold;
+}
+
+
+#edit-list {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+input {
+    font:1em;
+    box-sizing: border-box;
+    border:1px solid #999;
+}
+
+#blue-button {
+    color: white;
+    background-color: #0076c6;
+    padding: 16px 32px;
+    margin:  10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:90px 90px;
+}
+
+.london {
+    grid-column: 2/2;
+    opacity: 0.3;
+    grid-row: 2/2;
+}
+
+.content {
+    grid-column: 1/2;
+}
